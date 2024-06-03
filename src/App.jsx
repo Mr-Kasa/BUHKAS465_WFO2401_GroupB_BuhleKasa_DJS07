@@ -1,17 +1,14 @@
 import React from "react"
-import Header from "./components/Header"
-import Form from "./components/Form"
-<link rel="stylesheet" href="style.css"></link>
+import Header from "../src/components/Header"
+import Meme from "../src/components/Meme"
 
 
-function App() {
 
+export default function App() {
   return (
-    <>
-     <Header></Header>
-     <Form></Form>
-    </>
+      <div>
+          <Header />
+          <Meme />
+      </div>
   )
 }
-
-export default App
